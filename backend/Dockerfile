@@ -1,4 +1,5 @@
-# DB_HOST is mysql container name because mysql netowrk ip is not stale so we are using container name for stable purpose
+# DB_HOST is mysql container name because mysql netowrk ip is not stable so we are using container name for stability purpose
+
 FROM node:20
 EXPOSE 8080
 ENV DB_HOST=mysql
