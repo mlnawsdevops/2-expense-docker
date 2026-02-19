@@ -1,0 +1,1 @@
+* all mysql and backend and frontend are connected each other through container name because the network ip of each container is not stable.
